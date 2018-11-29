@@ -7,11 +7,15 @@ One can vary the values of wd,ws,Q,lat and lon according to their need.
 Assumptions:
 The following assumptions were used to make the simulation.
 
-1.Steady-state conditions, which imply that the rate of emission from the point source is constant. </br>
-2.Homogeneous flow, which implies that the wind speed is constant both in time and with height (wind direction shear is not considered).</br>
-3.Mass is conserved through reflection at surfaces.</br>
-4.The model should be applied for average wind speeds of more than 1 m/s (> 1 m/s).</br>
-5.The terrain underlying the plume is flat.</br>
+1. Steady-state conditions, which imply that the rate of emission from the point source is constant. </br>
+</br>
+2. Wind speed is constant both in time and with height (wind direction shear is not considered).</br>
+</br>
+3. Mass is conserved through reflection at surfaces.</br>
+</br>
+4. The model should be applied for average wind speeds of more than 1 m/s (> 1 m/s).</br>
+</br>
+5. The terrain underlying the plume is flat.</br>
 
 
 
