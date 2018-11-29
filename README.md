@@ -7,7 +7,7 @@ One can vary the values of wd,ws,Q,lat and lon according to their need.
 Assumptions:
 The following assumptions were used to make the simulation.
 
-1.Steady-state conditions, which imply that the rate of emission from the point source is constant. 
+1.Steady-state conditions, which imply that the rate of emission from the point source is constant. </br>
 2.Homogeneous flow, which implies that the wind speed is constant both in time and with height (wind direction shear is not considered).
 3.Mass is conserved through reflection at surfaces.
 4.The model should be applied for average wind speeds of more than 1 m/s (> 1 m/s).
