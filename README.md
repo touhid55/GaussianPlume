@@ -48,7 +48,7 @@ The following assumptions were used to make the simulation.
 
 
 # Inspiration
-ALOHA (Arial Location of Hazardous Atmosphere) and PHAST (Process Hazard Analysis Software) provided the main inspiration for this project
+<a href="https://www.epa.gov/cameo/aloha-software" target="_blank">ALOHA</a>(Areal Location of Hazardous Atmosphere) and PHAST (Process Hazard Analysis Software) provided the main inspiration for this project
 
 # References
 1.CCPS(Center for Chemical Process Safety),2010,Guidelines for Chemical Process Quantitative Risk Analysis,A JOHN WILEY & SONS, INC., PUBUCATION, Chap. 2. ISBN:0-8169-0720-X
