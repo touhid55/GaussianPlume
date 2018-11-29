@@ -4,6 +4,9 @@ The simulation is available at http://GaussianPlume.github.io/?wd=0/ws=5/Q=10000
 wd is wind direction, ws is wind speed, Q is amount of material released and lat,lon are latitude and longitude respectively.
 One can vary the values of wd,ws,Q,lat and lon according to their need.
 
+
+# Documentation
+
 Assumptions:
 The following assumptions were used to make the simulation.
 
@@ -12,13 +15,6 @@ The following assumptions were used to make the simulation.
 3. Mass is conserved through reflection at surfaces.</br>
 4. The model should be applied for average wind speeds of more than 1 m/s (> 1 m/s).</br>
 5. The terrain underlying the plume is flat.</br>
-
-
-
-
-# Documentation
-
-
 
 
 
