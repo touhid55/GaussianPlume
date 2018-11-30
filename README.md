@@ -2,7 +2,7 @@
 "GaussianPlume" is a project to visualize effect of toxic release in any area through Gaussian dispersion model.
 The simulation is available at http://GaussianPlume.github.io/?wd=0/ws=10/Q=92.66/mw=17/sc=rf/lat=29.76/lon=-95.38 where
 "wd" is wind direction, "ws" is wind speed, "Q" is amount of material released, "sc" is stability class and "lat","lon" are latitude and longitude respectively.
-One can vary the values of wd,ws,Q,sc,lat and lon according to their need.
+One can vary the values of wd,ws,Q,sc,lat and lon .
 
 
 # Assumptions
