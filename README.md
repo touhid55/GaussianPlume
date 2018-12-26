@@ -54,6 +54,6 @@ The following assumptions were used to make the simulation.
 2. Crowl D.A., and Louvar J.F., 2011, Chemical Process Safety, New Jersey: Prentice Hall, Chap. 4.
 ISBN: 0-13-018176-5
 
-License & Copyright
-@ Md Touhidul Islam, Bangladesh University of Engineering and Technology</br>
+# License & Copyright</br>
+&copy; Md Touhidul Islam, Bangladesh University of Engineering and Technology</br>
 Licensed under the [MIT License](https://github.com/touhid55/GaussianPlume/blob/master/LICENSE)
