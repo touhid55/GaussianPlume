@@ -56,4 +56,4 @@ ISBN: 0-13-018176-5
 
 License & Copyright
 @ Md Touhidul Islam, Bangladesh University of Engineering and Technology
-Licensed under the [MIT License]_(LICENSE)_
+Licensed under the [MIT License]_(https://github.com/touhid55/GaussianPlume/blob/master/LICENSE)_
