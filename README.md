@@ -55,5 +55,5 @@ The following assumptions were used to make the simulation.
 ISBN: 0-13-018176-5
 
 License & Copyright
-@ Md Touhidul Islam, Bangladesh University of Engineering and Technology
+@ Md Touhidul Islam, Bangladesh University of Engineering and Technology</br>
 Licensed under the [MIT License](https://github.com/touhid55/GaussianPlume/blob/master/LICENSE)
