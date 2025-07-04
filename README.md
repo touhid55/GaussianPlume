@@ -7,7 +7,7 @@ One can vary the values of wd, ws, Q, mw, sc, lat and lon .
 
 # Documentation
 
-This is a very simple and effective tool to visualize Gaussian dispersion model. It takes the value of "Q" in "g/s" which is the release rate."wd" is wind direction in degree,"ws" is wind speed in "m/s"."mw" takes the value of Molecular Weight of released material.For example, 17.013 for ammonia."sc" is stabilty class which has values for both urban and rural conditions.We considered Pasquill-Gifford Dispersion Coefficient for Plume Dispersion. For "A" to "F" stabilty class in both urban and rural condition, the simulation takes the value of "sc" as ra,rb,rc,....upto rf or ua,ub,uc....upto uf. Finally, "lat" and "lon" take the values of Latitude and Longitude.
+This is a very simple and effective tool to visualize Gaussian dispersion model. It takes the value of "Q" in "g/s" which is the release rate."wd" is wind direction in degree,"ws" is wind speed in "m/s"."mw" takes the value of Molecular Weight of released material.For example, 17.013 for ammonia."sc" is stability class which has values for both urban and rural conditions.We considered Pasquill-Gifford Dispersion Coefficient for Plume Dispersion. For "A" to "F" stability class in both urban and rural condition, the simulation takes the value of "sc" as ra,rb,rc,....upto rf or ua,ub,uc....upto uf. Finally, "lat" and "lon" take the values of Latitude and Longitude.
 
 Assumptions:
 The following assumptions were used to make the simulation.
