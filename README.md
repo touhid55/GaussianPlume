@@ -53,6 +53,14 @@ The following assumptions were used to make the simulation.
 1.CCPS(Center for Chemical Process Safety),2010,Guidelines for Chemical Process Quantitative Risk Analysis,A JOHN WILEY & SONS, INC., PUBUCATION, Chap. 2. ISBN:0-8169-0720-X </br>
 2. Crowl D.A., and Louvar J.F., 2011, Chemical Process Safety, New Jersey: Prentice Hall, Chap. 4.
 ISBN: 0-13-018176-5
+## Running Tests
+
+Execute the unit tests with:
+
+```
+npm test
+```
+
 
 # License & Copyright</br>
 &copy; Md Touhidul Islam, Bangladesh University of Engineering and Technology</br>

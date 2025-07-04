@@ -1,0 +1,19 @@
+{
+  "name": "gaussianplume",
+  "version": "1.0.0",
+  "description": "\"GaussianPlume\" is a project to visualize effect of toxic release in any area through Gaussian dispersion model. The simulation is available at https://gaussianplume.github.io/?wd=0/ws=3/Q=25000/mw=17/sc=rd/lat=22.2343358/lon=91.8236618 where \"wd\" is wind direction, \"ws\" is wind speed, \"Q\" is amount of material released, \"mw\" is molecular weight, \"sc\" is stability class and \"lat\",\"lon\" are latitude and longitude respectively. One can vary the values of wd, ws, Q, mw, sc, lat and lon .",
+  "main": "getQueryVariable.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
