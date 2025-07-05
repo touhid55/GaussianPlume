@@ -40,6 +40,26 @@
   </head>
   
   <body>
+<div id="input-overlay" style="position: absolute; top: 20px; left: 20px; z-index: 999; background-color: rgba(255, 255, 255, 0.9); padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  <form id="paramForm">
+    <label>Wind Direction (wd): <input type="number" name="wd" required></label><br>
+    <label>Wind Speed (ws): <input type="number" name="ws" required></label><br>
+    <label>Emission Rate (Q): <input type="number" name="Q" required></label><br>
+    <label>Molecular Weight (mw): <input type="number" name="mw" required></label><br>
+    <label>Source Category (sc): <input type="text" name="sc" required></label><br>
+    <label>Latitude (lat): <input type="number" name="lat" step="any" required></label><br>
+    <label>Longitude (lon): <input type="number" name="lon" step="any" required></label><br><br>
+    <button type="submit">Run Simulation</button>
+  </form>
+</div>
+
+<script>
+  document.getElementById('paramForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const params = new URLSearchParams(new FormData(e.target)).toString();
+    window.location.href = `${window.location.origin}${window.location.pathname}?${params}`;
+  });
+</script>
 
     <div id="map"></div>
     
