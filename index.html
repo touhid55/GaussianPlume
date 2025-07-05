@@ -147,7 +147,15 @@ var config = {
       var infoWindow;
       var rotation_angle_degs =wd;
       function initMap() {
+  if (!window.simParams) return;
 
+  const wd = window.simParams.wd;
+  const ws = window.simParams.ws;
+  const Q = window.simParams.Q;
+  const mw = window.simParams.mw;
+  const sc = window.simParams.sc;
+  const latitude = window.simParams.lat;
+  const longitude = window.simParams.lon;
         
         //setTimeout(initMap,10000)
         var a = Math.floor(Math.random() * 180);
