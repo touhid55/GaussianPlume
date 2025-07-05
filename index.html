@@ -40,6 +40,17 @@
   </head>
   
   <body>
+
+
+<script>
+  document.getElementById('paramForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const params = new URLSearchParams(new FormData(e.target)).toString();
+    window.location.href = `${window.location.origin}${window.location.pathname}?${params}`;
+  });
+</script>
+
+    <div id="map">
 <div id="input-overlay" style="position: relative; top: 20px; left: 20px; z-index: 999; background-color: rgba(255, 255, 255, 0.9); padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
   <form id="paramForm">
     <label>Wind Direction (wd): <input type="number" name="wd" required></label><br>
@@ -53,15 +64,9 @@
   </form>
 </div>
 
-<script>
-  document.getElementById('paramForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const params = new URLSearchParams(new FormData(e.target)).toString();
-    window.location.href = `${window.location.origin}${window.location.pathname}?${params}`;
-  });
-</script>
 
-    <div id="map"></div>
+	    
+    </div>
     
     <script>
  d3.json("https://f.stdlib.com/thisdavej/weather/current/?loc=22.234076,91.8249187", function(data) {
