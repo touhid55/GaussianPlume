@@ -62,6 +62,14 @@
     <label>Longitude (lon): <input type="number" name="lon" step="any" required></label><br><br>
     <button type="submit">Run Simulation</button>
   </form>
+
+	<script>
+  document.getElementById('paramForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const params = new URLSearchParams(new FormData(e.target)).toString();
+    window.location.href = `${window.location.origin}${window.location.pathname}?${params}`;
+  });
+</script>
 </div>
 
 
