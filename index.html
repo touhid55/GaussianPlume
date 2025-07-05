@@ -167,9 +167,44 @@ var config = {
           mapTypeId: 'satellite',
           labels:true
         });
+	      
         translate_coordinates1();
         translate_coordinates2();
         translate_coordinates3();
+	<!-- Input Overlay Form -->
+<div id="input-overlay" style="
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+">
+  <form id="paramForm">
+    <label>Wind Direction (wd): <input type="number" name="wd" required></label><br>
+    <label>Wind Speed (ws): <input type="number" name="ws" required></label><br>
+    <label>Emission Rate (Q): <input type="number" name="Q" required></label><br>
+    <label>Molecular Weight (mw): <input type="number" name="mw" required></label><br>
+    <label>Source Category (sc): <input type="text" name="sc" required></label><br>
+    <label>Latitude (lat): <input type="number" name="lat" step="any" required></label><br>
+    <label>Longitude (lon): <input type="number" name="lon" step="any" required></label><br><br>
+    <button type="submit">Run Simulation</button>
+  </form>
+</div>
+
+<script>
+  // On submit, build the query string and reload the page
+  document.getElementById('paramForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const query = new URLSearchParams(formData).toString();
+    window.location.href = `${window.location.pathname}?${query}`;
+  });
+</script>
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         function translate_coordinates1() {
             with (Math) {
