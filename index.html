@@ -40,6 +40,8 @@
   </head>
   
   <body>
+
+    
 <div style="padding: 10px; background: white; position: absolute; top: 10px; left: 10px; z-index: 10; border-radius: 8px;">
   <form id="input-form">
     <label>Wind Direction (°): <input type="number" name="wd" required></label><br>
@@ -53,7 +55,7 @@
   </form>
 </div>
 
-    <div id="map"></div>
+<div id="map"></div>
     
     <script>
  d3.json("https://f.stdlib.com/thisdavej/weather/current/?loc=22.234076,91.8249187", function(data) {
@@ -148,7 +150,6 @@ var config = {
       var rotation_angle_degs =wd;
       function initMap() {
   if (!window.simParams) return;
-
   const wd = window.simParams.wd;
   const ws = window.simParams.ws;
   const Q = window.simParams.Q;
@@ -156,6 +157,7 @@ var config = {
   const sc = window.simParams.sc;
   const latitude = window.simParams.lat;
   const longitude = window.simParams.lon;
+
         
         //setTimeout(initMap,10000)
         var a = Math.floor(Math.random() * 180);
@@ -165,7 +167,7 @@ var config = {
           zoom: 12,
           center: {lat: latitude, lng: longitude},
           mapTypeId: 'satellite',
-          labels:True
+          labels:true
         });
         translate_coordinates1();
         translate_coordinates2();
@@ -1830,9 +1832,11 @@ infoWindow.open(map);
  
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtDVEI_LOM6g0LvjPWl4h1BNt7a1k73aU">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGXaF9n_XgHUHMaTn0wiP9yDqVB5S0SrA&callback=initMap">
     
     </script>
+
+  
 <script>
   document.getElementById('input-form').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -1860,5 +1864,5 @@ infoWindow.open(map);
   });
 </script>
 
-  </body>
+</body>
 </html>
