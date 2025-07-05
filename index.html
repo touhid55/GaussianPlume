@@ -40,6 +40,18 @@
   </head>
   
   <body>
+<div style="padding: 10px; background: white; position: absolute; top: 10px; left: 10px; z-index: 10; border-radius: 8px;">
+  <form id="input-form">
+    <label>Wind Direction (°): <input type="number" name="wd" required></label><br>
+    <label>Wind Speed (m/s): <input type="number" name="ws" required></label><br>
+    <label>Emission Rate Q (g/s): <input type="number" name="Q" required></label><br>
+    <label>Molecular Weight (g/mol): <input type="number" name="mw" required></label><br>
+    <label>Scenario (e.g., rd): <input type="text" name="sc" required></label><br>
+    <label>Latitude: <input type="number" step="any" name="lat" required></label><br>
+    <label>Longitude: <input type="number" step="any" name="lon" required></label><br>
+    <button type="submit">Run Simulation</button>
+  </form>
+</div>
 
     <div id="map"></div>
     
