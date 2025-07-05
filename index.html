@@ -85,7 +85,11 @@ if (cwd===undefined){
 }
 
 );  
-      
+  document.getElementById('paramForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const params = new URLSearchParams(new FormData(e.target)).toString();
+    window.location.href = `${window.location.origin}${window.location.pathname}?${params}`;
+  });      
 //
       // This example creates a simple polygon representing the Bermuda Triangle.
       // When the user clicks on the polygon an info window opens, showing
