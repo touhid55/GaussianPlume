@@ -8,8 +8,6 @@ A browser-based simulation tool for modeling atmospheric pollutant dispersion us
      [Google Scholar](https://scholar.google.com/citations?user=pGEteP0AAAAJ&hl=en)</pre> </br>
       [LinkedIn](https://www.linkedin.com/in/touhid55/)
 
----
-
 ## 🔬 Overview
 
 This tool visualizes the dispersion of pollutants emitted into the atmosphere from a point source using the **Gaussian plume equation**. The simulation runs entirely in the browser and incorporates parameters such as wind speed, direction, emission rate, and atmospheric stability.
@@ -19,8 +17,6 @@ It is useful for:
 - Teaching and demonstration
 - Field scenario simulation
 
----
-
 ## 📦 Features
 
 - ✅ Real-time browser-based interface (no backend needed)
@@ -29,13 +25,11 @@ It is useful for:
 - ✅ Optional background map and location targeting
 - ✅ GitHub Pages-hosted, open-source frontend
 
----
 
 ## 🌐 Try it Live
 
 👉 **[Run a simulation](https://gaussianplume.github.io)**  
 
----
 
 ## 🛠️ Parameters Used
 
@@ -48,9 +42,7 @@ It is useful for:
 | `sc`             | Stability Class (`ra`–`rf`)        |
 | `lat`, `lon`     | Latitude and Longitude of source   |
 
----
-
-## Documentation
+## 📚 Documentation
 
 This is a very simple and effective tool to visualize Gaussian dispersion model. It takes the value of "Q" in "g/s", which is the release rate."wd" is wind direction in degrees, "ws" is wind speed in "m/s"."mw" takes the value of Molecular Weight of released material. For example, 17.013 for ammonia."sc" is the stability class that has values for both urban and rural conditions. We considered Pasquill-Gifford Dispersion Coefficient for Plume Dispersion. For "A" to "F" stability class in both urban and rural conditions, the simulation takes the value of "sc" as ra,rb,rc,....upto rf or ua,ub,uc....upto uf. Finally, "lat" and "lon" take the values of Latitude and Longitude.
 
@@ -64,33 +56,26 @@ The following assumptions were used to make the simulation.
 5. The terrain underlying the plume is flat.</br>
 
 
-## Inspiration
+## 💡Inspiration
 <a href="https://www.epa.gov/cameo/aloha-software" target="_blank">ALOHA(Areal Location of Hazardous Atmosphere)</a> and <a href="https://www.dnvgl.com/services/process-hazard-analysis-software-phast-1675" target='_blank'>PHAST(Process Hazard Analysis Software)</a> provided the main inspiration for this project
 
-## References
+## 📘References
 1.CCPS(Center for Chemical Process Safety),2010,Guidelines for Chemical Process Quantitative Risk Analysis,A JOHN WILEY & SONS, INC., PUBUCATION, Chap. 2. ISBN:0-8169-0720-X </br>
 2. Crowl D.A., and Louvar J.F., 2011, Chemical Process Safety, New Jersey: Prentice Hall, Chap. 4.
 ISBN: 0-13-018176-5
 
-## License & Copyright</br>
+## ©️License & Copyright</br>
 &copy; Md Touhidul Islam, Bangladesh University of Engineering and Technology </br>
 Licensed under the [MIT License](https://github.com/touhid55/GaussianPlume/blob/master/LICENSE)
 
-📜 Citation
-@software{islam2025gaussianplume,
-  author = {Touhidul Islam},
-  title = {GaussianPlume: Interactive Atmospheric Dispersion Simulator},
-  year = {2025},
-  url = {https://github.com/touhid55/GaussianPlume}
-}
-
+## 📜 Citation
+Islam, M. T. (2018). GaussianPlume: Interactive Atmospheric Dispersion Simulator (Version 2.0.0) [Computer software]. https://github.com/touhid55/GaussianPlume
 
 
 ## 📂 File Structure
 
 ```bash
-├── index.html         # Main simulation interface
-├── style.css          # Styling for form and layout
-├── script.js          # Form logic and map behavior
-├── img/               # Optional background or visual assets
-└── README.md          # Project documentation
+├── index.html        # Main simulation interface
+├── img/              # Optional background or visual assets
+├── README.md         # Project documentation
+└── CITATION.cff      # Citation file
