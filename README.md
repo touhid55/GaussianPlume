@@ -1,4 +1,4 @@
-# 🌫️ GaussianPlume: Interactive Atmospheric Dispersion Simulation
+# GaussianPlume: Interactive Atmospheric Dispersion Simulation
 
 A browser-based simulation tool for modeling atmospheric pollutant dispersion using the **Gaussian Plume** model with real-world coordinates and parameters.
 
