@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this tool in your research, please cite it as below:"
+title: "GaussianPlume: Interactive Atmospheric Dispersion Simulator"
+authors:
+  - family-names: Islam
+    given-names: Md Touhidul
+    email: touhidulislam55@gmail.com
+    Alternate email: mdtouhidul.islam@ucf.edu
+    orcid: https://orcid.org/0000-0003-4447-0648  
+date-released: 2018-12-01
+version: "2.0.0"
+repository-code: https://github.com/touhid55/GaussianPlume
+license: MIT
+keywords:
+  - gaussian plume
+  - air pollution
+  - environmental modeling
+  - simulation
+  - atmospheric dispersion
